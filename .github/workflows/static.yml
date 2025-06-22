@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Event Invite: Secons' Summer Bash</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 40px;
+            color: #333;
+        }
+
+        .invite-container {
+            max-width: 600px;
+            background: #fff;
+            padding: 30px;
+            margin: auto;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #e63946;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p.details {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .description {
+            margin: 20px 0;
+            line-height: 1.5;
+        }
+
+        h3 {
+            margin-top: 30px;
+            color: #555;
+        }
+
+        ul.guest-list {
+            padding-left: 20px;
+        }
+
+        ul.guest-list li {
+            margin-bottom: 6px;
+        }
+
+        .rsvp-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #457b9d;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        .rsvp-button:hover {
+            background-color: #1d3557;
+        }
+    </style>
+</head>
+<body>
+
+<div class="invite-container">
+    <h1>Secons' Summer Bash 2025</h1>
+
+    <p class="details"><strong>Date:</strong> Saturday, July 20, 2025</p>
+    <p class="details"><strong>Time:</strong> 6:00 PM till late</p>
+    <p class="details"><strong>Location:</strong> The Dockside Loft, Riverside District</p>
+
+    <div class="description">
+        <p>Join us for an evening of great music, drinks, and good company as we kick off the summer season. There’ll be live DJs, craft cocktails, and a rooftop view you don't want to miss.</p>
+    </div>
+
+    <h3>Guest List</h3>
+    <ul class="guest-list">
+        <li>Secons</li>
+        <li>Alex R.</li>
+        <li>Maya T.</li>
+        <li>Jordan K.</li>
+        <li>+ more surprise guests!</li>
+    </ul>
+
+    <a href="mailto:secons@example.com?subject=RSVP%20for%20Summer%20Bash%202025" class="rsvp-button">RSVP Now</a>
+</div>
+
+</body>
+</html>
